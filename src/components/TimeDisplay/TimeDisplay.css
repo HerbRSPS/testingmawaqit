@@ -1,0 +1,21 @@
+.time-display-container {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.date {
+  font-size: 1.2rem;
+  color: white;
+  margin-top: 0.5rem;
+}
+
+.hijri-date {
+  font-size: 1rem;
+  color: white;
+  opacity: 0.8;
+  margin-top: 0.25rem;
+} 

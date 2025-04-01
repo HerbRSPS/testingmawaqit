@@ -1,0 +1,90 @@
+.prayer-times {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.prayer-times h3 {
+  color: white;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.times-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.time-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 1rem;
+  background-color: rgba(20, 20, 20, 0.5);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.time-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.prayer-name {
+  font-weight: 500;
+  color: white;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.time-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.prayer-time {
+  font-weight: bold;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.iqama-time {
+  font-size: 0.85rem;
+  color: white;
+  background-color: rgba(100, 100, 100, 0.3);
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+}
+
+.iqama-label {
+  font-weight: 500;
+  margin-right: 0.25rem;
+}
+
+.next-prayer {
+  background-color: rgba(76, 175, 80, 0.7);
+}
+
+.next-prayer .prayer-name,
+.next-prayer .prayer-time {
+  color: white;
+}
+
+.next-prayer .iqama-time {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .times-container {
+    grid-template-columns: 1fr;
+  }
+} 

@@ -1,0 +1,25 @@
+.current-time {
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.time-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.hours-minutes {
+  font-size: 3.5rem;
+  color: white;
+}
+
+.seconds {
+  font-size: 2rem;
+  color: white;
+  opacity: 0.8;
+  margin-top: 0.5rem;
+} 
